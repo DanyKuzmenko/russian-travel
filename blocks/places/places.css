@@ -1,0 +1,7 @@
+.places {
+    display: grid;
+    max-width: 984px;
+    height: 3392px;
+    grid-template-rows: repeat(5, 1fr);
+    margin: 92px auto;
+}

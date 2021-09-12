@@ -1,0 +1,12 @@
+.intro__text {
+    color: #fff;
+    margin: 40px 0 33px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
+    padding: 0;
+    max-width: 690px;
+    /* height: 208px; */
+}

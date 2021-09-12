@@ -1,0 +1,17 @@
+.footer__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 112%;
+    margin: 0 18px 0 0; 
+    /*не стал обнулять у поседнего margin, 
+    потому что всеравно отступ схлопнулся*/
+    padding: 0;
+}
+
+.footer__link:hover {
+    opacity: .8;
+    transition-duration: .8s;
+    /*добавил анимацию при наведении на ссылку*/
+}
