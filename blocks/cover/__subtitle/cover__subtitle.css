@@ -4,9 +4,29 @@
     padding: 0;
     font-weight: normal;
     font-size: 18px;
-    line-height: 122%;
+    line-height: 1.22;
     text-align: center;
     max-width: 360px;
     position: relative;
     z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        margin: 0 332px 195px 322px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        margin: 0 204px 115px 204px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        margin: 0 16px 33px 16px;
+        font-size: 14px;
+        line-height: 1.14;
+    }
 }

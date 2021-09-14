@@ -3,6 +3,30 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 28px 0 56px 0;
-    max-width: 92.5%;
+    max-width: 1184px;
     min-height: 52px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        padding: 28px 0 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        margin: 0 24px;
+        padding: 28px 0 48px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        min-height: 42px;
+        padding: 16px 0 48px 0;
+        margin: 0 16px;
+    }
 }

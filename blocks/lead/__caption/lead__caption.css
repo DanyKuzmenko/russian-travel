@@ -3,9 +3,21 @@
     /* font-style: normal; */
     font-weight: normal;
     font-size: 10px;
-    line-height: 140%;
+    line-height: 1.4;
     /* identical to box height, or 140% */
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 8px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin: 8px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        margin: 8px 0 0 16px;
+    }
 }

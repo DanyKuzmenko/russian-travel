@@ -2,6 +2,29 @@
     display: grid;
     max-width: 984px;
     height: 3392px;
+    /*установил точную высоту, чтобы сетка выстроилась*/
     grid-template-rows: repeat(5, 1fr);
     margin: 92px auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        height: 2808px;
+        margin: 88px 0 90px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        height: 5177px;
+        margin: 64px 0 66px 0;
+    }
 }

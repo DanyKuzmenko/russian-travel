@@ -3,8 +3,16 @@
     color: #fff;
     font-weight: 900;
     font-size: 96px;
-    line-height: 104%;
+    line-height: 1.04;
     text-align: center;
     margin: 0 auto;
     padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 1.1;
+    }
 }

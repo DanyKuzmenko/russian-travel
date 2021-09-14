@@ -1,5 +1,6 @@
 .cover__background {
     background-image: url('../../../images/background-cover.png');
+    background-size: contain;
     max-width: 1184px;
     margin: 0 auto;
     min-height: 740px;
@@ -25,4 +26,23 @@
 
 .cover__background:hover::after {
     opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background {
+        min-height: 200px;
+        max-width: 100%;
+    }
 }

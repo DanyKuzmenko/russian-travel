@@ -1,3 +1,14 @@
 .header__logo {
-    
+    width: 176px;
+    height: 52px;
+}
+/*нужно ли было задавать ширину и высоту, 
+когда картинка и так с такими размерами.
+Но так блок остался бы пустым*/
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
 }
