@@ -14,3 +14,4 @@
 * шрифты сглажены
 * изображения оптимизированы
 ## Ссылка на GitHub
+https://danykuzmenko.github.io/russian-travel/index.html
