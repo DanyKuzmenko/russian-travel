@@ -1,31 +1,11 @@
 .header__list-item {
-    width: 30px;
-    height: 28px;
-    /*высота фиксированная, потому что не текстовый блок*/
     margin: 18px 0 6px 18px; 
     /*не обнулил левый margin у второй ссылки, 
     потому что отступ схлопнется*/
-    text-decoration: underline;
 }
-
-.header__list-item:last-child {
-    width: 29px;
-}
-
-.header__list-item:nth-child(2) {
-    text-decoration: none;
-}
-/*не получалось убрать у второго элемента отступ,
-только так получилось*/
 
 @media screen and (max-width: 320px) {
     .header__list-item {
-        width: 22px;
-        height: 20px;
         margin: 14px 0 8px 18px;
-    }
-
-    .header__list-item:last-child {
-        width: 22px;
     }
 }

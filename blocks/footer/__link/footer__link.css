@@ -8,11 +8,11 @@
     /*не стал обнулять у поседнего margin, 
     потому что всеравно отступ схлопнулся*/
     padding: 0;
+    transition-duration: .8s;
 }
 
 .footer__link:hover {
     opacity: .8;
-    transition-duration: .8s;
     /*добавил анимацию при наведении на ссылку*/
 }
 

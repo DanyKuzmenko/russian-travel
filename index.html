@@ -6,17 +6,19 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
 </head>
-<body>
+<body class="root">
     <div class="page">
-
+        <!-- Изменил все alt на странице -->
         <header class="header">
-            <img src="./images/__logo.png" alt="логотип" class="header__logo">
+            <img src="./images/image.svg" alt="Логотип." class="header__logo">
+            <!-- подключил оптимизированную svg -->
             <ul class="header__list">
                 <li class="header__list-item">
                     <a href="" class="header__lang-link">Ru</a>
                 </li>
                 <li class="header__list-item">
-                    <a href="" class="header__lang-link">En</a>
+                    <a href="" class="header__lang-link header__lang-link_disabled">En</a>
+                    <!-- сделал подчеркивание с помощью модификатора -->
                 </li>
             </ul>
         </header>
@@ -27,7 +29,7 @@
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
                 <figure class="lead__figure">
-                    <img src="./images/__image.png" alt="маршрут" class="lead__image">
+                    <img src="./images/__image.png" alt="Маршрут на фоне вида из окна в поезде." class="lead__image">
                     <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
                 </figure>
             </section>
@@ -50,28 +52,27 @@
             </section>
 
             <section class="photo-grid">
-                <img src="./images/photo-grid-1.png" alt="поезд" class="photo-grid__image">
-                <img src="./images/photo-grid-2.png" alt="горы" class="photo-grid__image">
-                <img src="./images/photo-grid-3.png" alt="поле" class="photo-grid__image">
-                <img src="./images/photo-grid-4.png" alt="лес" class="photo-grid__image">
-                <img src="./images/photo-grid-5.png" alt="лёд" class="photo-grid__image">
-                <img src="./images/photo-grid-6.png" alt="море" class="photo-grid__image">
-                <img src="./images/photo-grid-7.png" alt="горы" class="photo-grid__image">
-                <img src="./images/photo-grid-8.png" alt="пешеходный переход" class="photo-grid__image">
-                <!-- не знал, что добавить в описание -->
-                <img src="./images/photo-grid-9.png" alt="горы" class="photo-grid__image">
-                <img src="./images/photo-grid-10.png" alt="горы" class="photo-grid__image">
-                <img src="./images/photo-grid-11.png" alt="горы" class="photo-grid__image">
-                <img src="./images/photo-grid-12.png" alt="горы" class="photo-grid__image">
+                <img src="./images/photo-grid-1.png" alt="Вид из окна в поезде." class="photo-grid__image">
+                <img src="./images/photo-grid-2.png" alt="Вид на снежные горы сверху." class="photo-grid__image">
+                <img src="./images/photo-grid-3.png" alt="Поле утром, на фоне стоги сена." class="photo-grid__image">
+                <img src="./images/photo-grid-4.png" alt="Туманный лес." class="photo-grid__image">
+                <img src="./images/photo-grid-5.png" alt="Машина на льду." class="photo-grid__image">
+                <img src="./images/photo-grid-6.png" alt="Безлюдный пляж с видом на горы." class="photo-grid__image">
+                <img src="./images/photo-grid-7.png" alt="Снежные горы." class="photo-grid__image">
+                <img src="./images/photo-grid-8.png" alt="Знак пешеходного перехода, на заднем фоне волнорезы." class="photo-grid__image">
+                <img src="./images/photo-grid-9.png" alt="Вид сверху на горы в тумане." class="photo-grid__image">
+                <img src="./images/photo-grid-10.png" alt="Вид на гору издалека." class="photo-grid__image">
+                <img src="./images/photo-grid-11.png" alt="Вид сверху на скалы с морем." class="photo-grid__image">
+                <img src="./images/photo-grid-12.png" alt="Вид на горы в тумане." class="photo-grid__image">
             </section>
 
             <section class="places">
-                <div class="place">
+                <article class="place">
                     <h2 class="place__title">Куршская коса</h2>
-                    <img src="./images/kurshskaya-kosa.png" alt="Куршская коса" class="place__image">
+                    <img src="./images/kurshskaya-kosa.png" alt="Берег моря с корнями деревьев." class="place__image">
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
-                        <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+                        <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
                     </div>
                     <div> <!--сделал дополнительный div, чтобы постороить сетку grid. Убрал класс, потому что он пустой-->
                         <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -83,13 +84,13 @@
                            Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, 
                            прохладного моря.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Кольский</h2>
-                    <img src="./images/kolskiy.png" alt="Кольский" class="place__image">
+                    <img src="./images/kolskiy.png" alt="Снежные горы." class="place__image">
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
-                        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
+                        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
                     </div>
                     <div>
                         <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. 
@@ -101,13 +102,13 @@
                             пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. 
                             Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Алтай</h2>
-                    <img src="./images/altay.png" alt="Алтай" class="place__image">
+                    <img src="./images/altay.png" alt="Вид на лес из беседки, на столе стоит ноутбук." class="place__image">
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
-                        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
+                        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank">Facebook</a>
                     </div>
                     <div> <p class="place__paragraph">Алтай — одно из красивейших мест в России. 
                         В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, 
@@ -117,13 +118,13 @@
                         Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами 
                         летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Зимний Байкал</h2>
-                    <img src="./images/zimniy-baikal.png" alt="Байкал" class="place__image">
+                    <img src="./images/zimniy-baikal.png" alt="Потрескавшийся лёд." class="place__image">
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
-                        <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+                        <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
                     </div>
                     <div>
                         <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
@@ -134,13 +135,13 @@
                             и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года 
                             на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h2 class="place__title">Карелия</h2>
-                    <img src="./images/kareliya.png" alt="Карелия" class="place__image">
+                    <img src="./images/kareliya.png" alt="Вид на реку с лесом." class="place__image">
                     <div class="place__website">
                         <h3 class="place__url-heading">URL</h3>
-                        <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
+                        <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
                     </div>
                     <div>
                         <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская 
@@ -151,7 +152,7 @@
                         А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. 
                         Чтобы все знали, кто тут хозяин.</p>
                     </div>
-                </div>
+                </article>
             </section>
 
             <section class="cover">
@@ -166,11 +167,23 @@
         <footer class="footer">
             <nav>
                 <!--ссылкам добавил target, чтобы открывались в новой вкладке-->
-                <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
-                <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
-                <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
-                <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
-                <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+                <ul class="footer__list">
+                    <li class="footer__list">
+                        <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
+                    </li>
+                    <li class="footer__list">
+                        <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
+                    </li>
+                    <li class="footer__list">
+                        <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
+                    </li>
+                    <li class="footer__list">
+                        <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
+                    </li>
+                    <li class="footer__list">
+                        <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+                    </li>
+                </ul>
             </nav>
             <p class="footer__copyright">© 2021. Кузьменко Даниил</p>
         </footer>

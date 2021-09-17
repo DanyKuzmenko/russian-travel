@@ -3,10 +3,10 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 1.22;
+    transition-duration: .8s;
 }
 
 .place__link:hover {
     opacity: .8;
-    transition-duration: .8s;
     /*добавил анимацию при наведении на ссылку*/
 }

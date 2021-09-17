@@ -10,5 +10,8 @@
 @media screen and (max-width: 320px) {
     .footer__copyright {
         line-height: 1;
+        margin-top: 16px;
+        /* добавил margin, чтобы добавить отступ,
+        вычислял вручную */
     }
 }
