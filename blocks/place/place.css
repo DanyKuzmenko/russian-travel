@@ -1,7 +1,8 @@
 .place {
     display: grid;
+    padding: 0;
     gap: 48px 40px;
-    grid-template-rows: minmax(min-content, max-content) 460px;
+    grid-template-rows: minmax(min-content, max-content) min-content;
     grid-template-columns: 460px 1fr;
     max-width: 984px;
     margin-bottom: 80px;
@@ -16,7 +17,7 @@
         gap: 48px 32px;
         max-width: 928px;
         grid-template-columns: 440px 1fr;
-        grid-template-rows: minmax(min-content, max-content) 440px;
+        grid-template-rows: minmax(min-content, max-content) min-content;
     }
 }
 
@@ -24,7 +25,7 @@
     .place {
         max-width: 720px;
         grid-template-columns: 340px 1fr;
-        grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
+        grid-template-rows: minmax(min-content, max-content) min-content;
         /* задал minmax(340px, 1fr), чтобы отступ считался от конца текста, 
         а не от конца изображения */
         gap: 48px 28px;

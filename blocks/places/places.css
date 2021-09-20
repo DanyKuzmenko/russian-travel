@@ -2,7 +2,7 @@
     display: grid;
     max-width: 984px;
     /*установил точную высоту, чтобы сетка выстроилась*/
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
     margin: 92px auto;
 }
 
