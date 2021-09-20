@@ -12,31 +12,27 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place {
         gap: 48px 32px;
-        max-width: 928px;
         grid-template-columns: 440px 1fr;
         grid-template-rows: minmax(min-content, max-content) min-content;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place {
-        max-width: 720px;
         grid-template-columns: 340px 1fr;
         grid-template-rows: minmax(min-content, max-content) min-content;
-        /* задал minmax(340px, 1fr), чтобы отступ считался от конца текста, 
-        а не от конца изображения */
         gap: 48px 28px;
         margin-bottom: 72px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place {
-        max-width: 320px;
-        grid-template-columns: 320px;
+        align-items: center;
+        grid-template-columns: 1fr;
         grid-template-rows: minmax(min-content, max-content);
         gap: 32px;
         margin-bottom: 50px;

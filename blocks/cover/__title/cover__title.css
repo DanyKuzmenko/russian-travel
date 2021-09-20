@@ -11,10 +11,11 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         margin: 0 0 16px 0;
-        font-size: 32px;
+        font-size: calc((100vw - 320px)/(768 - 320)*(72 - 32) + 32px);
+        /* сделал резиновый заголовок */
         line-height: 1.09;
     }
 }

@@ -7,17 +7,18 @@
     color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 1.1;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__title {
-        font-size: 32px;
+        font-size: calc((100vw - 320px)/(767 - 320)*(42 - 32) + 32px);
         line-height: 1.09;
+        /* сделал так, чтобы шрифт менялся равномерно */
         margin: 0 0 0 16px;
         /* не стал задавать max-width,
         потому что блок и так прижат 

@@ -1,6 +1,7 @@
 .cover__background {
     background-image: url('../../../images/background-cover.png');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     max-width: 1184px;
     margin: 0 auto;
     min-height: 740px;
@@ -29,21 +30,28 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__background {
         min-height: 640px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover__background {
         min-height: 480px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
+    .cover__background {
+        /* background-size: contain; */
+        min-height: 450px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
     .cover__background {
         min-height: 200px;
-        max-width: 100%;
     }
 }

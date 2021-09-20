@@ -1,27 +1,27 @@
 .places {
     display: grid;
     max-width: 984px;
-    /*установил точную высоту, чтобы сетка выстроилась*/
     grid-template-rows: repeat(5, minmax(min-content, max-content));
     margin: 92px auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .places {
         max-width: 928px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .places {
         max-width: 720px;
         margin: 88px auto 90px auto;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .places {
-        max-width: 320px;
-        margin: 64px 0 66px 0;
+        max-width: 767px;
+        width: 100%;
+        margin: 64px auto 66px auto;
     }
 }

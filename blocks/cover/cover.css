@@ -4,21 +4,28 @@
     min-height: 740px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover {
         min-height: 640px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover {
         min-height: 480px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover {
-        min-height: 200px;
+        min-height: 450px;
         margin: 0 auto 64px auto;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .cover {
+        min-height: 200px;
+    }
+}
+/* Добавил еще один медиа-запрос, чтобы красиво смотрелся переход */
