@@ -1,26 +1,22 @@
 .lead__image {
     max-width: 984px;
-    height: 615px;
     object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image {
-        max-width: 928px;
-        height: 580px;
+        width: calc(768px - 0.625*(768px - 100vw));
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
-        max-width: 768px;
-        height: 480px;
+        width: calc(320px - (320px - 100vw));
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image {
         max-width: 320px;
-        height: 200px;
     }
 }

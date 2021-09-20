@@ -11,6 +11,12 @@
     opacity: .8;
 }
 
+@media screen and (max-width: 768px) {
+    .header__lang-link {
+        font-size: calc((100vw - 320px)/(768 - 320)*(24 - 18) + 18px);
+    }
+}
+
 @media screen and (max-width: 320px) {
     .header__lang-link {
         font-size: 18px;

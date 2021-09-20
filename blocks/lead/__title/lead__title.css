@@ -9,6 +9,14 @@
     padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .lead__title {
+        width: calc(320px - 0.96429*(320px - 100vw));
+        font-size: calc((100vw - 320px)/(768 - 320)*(96 - 40) + 40px);
+        /* сделал резиновый размер ширины и размер шрифта */
+    }
+}
+
 @media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;
