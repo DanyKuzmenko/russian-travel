@@ -1,11 +1,5 @@
 .lead__figure {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: min-content;
+    margin: 0 auto;
 }
-
-.lead__figure:last-child {
-    align-items: flex-start;
-}
-/* добавил flex, чтобы выровнять изображение по центру */
