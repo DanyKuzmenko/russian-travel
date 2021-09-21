@@ -16,14 +16,12 @@
     .place {
         gap: 48px 32px;
         grid-template-columns: 440px 1fr;
-        grid-template-rows: minmax(min-content, max-content) min-content;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .place {
         grid-template-columns: 340px 1fr;
-        grid-template-rows: minmax(min-content, max-content) min-content;
         gap: 48px 28px;
         margin-bottom: 72px;
     }

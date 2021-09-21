@@ -1,10 +1,8 @@
 .lead__caption {
     color: #fff;
-    /* font-style: normal; */
     font-weight: normal;
     font-size: 10px;
     line-height: 1.4;
-    /* identical to box height, or 140% */
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 8px 0 0 0;
