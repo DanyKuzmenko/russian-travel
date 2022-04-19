@@ -15,4 +15,5 @@
 * изображения оптимизированы
 ## **Ссылки:**
 Github: https://danykuzmenko.github.io/russian-travel/index.html  
-Сайт: https://danykuzmenko.github.io/russian-travel/
+Сайт: https://danykuzmenko.github.io/russian-travel/  
+LinkedIn: https://www.linkedin.com/in/daniil-kuzmenko-30a33822b/
